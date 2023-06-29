@@ -1,0 +1,13 @@
+default:
+  image: python
+
+stages:
+  - cleanup
+
+cleanup:
+  stage: cleanup
+  image: python:3.9
+  script:
+    - echo "VARIABLES BEGIN"
+    - "echo IMAGE_TAG: latest"
+    - echo "VARIABLES END"
