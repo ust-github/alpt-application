@@ -7,7 +7,7 @@ ingress:
   annotations:
     kubernetes.io/ingress.class: nginx-internal
   hosts:
-  - host: workflow-test-gitlab-backend-default.dagility.com
+  - host: workflow-test-gitlab-backend-habitat-test3.dagility.com
     paths:
     - /
 serviceAccount:
